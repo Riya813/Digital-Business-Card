@@ -1,0 +1,142 @@
+/* #root {
+    width: 550px;
+    height: 868px;
+    background-color: #23252D;
+    margin-left: auto;
+    margin-right: auto;
+} */
+#root{
+    width: 317px;
+    height: 660px;
+    background-color: #1A1B22;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 5px solid #23252D;
+}
+
+.no-margin{
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.info > img{
+    width: 317px;
+    height: 220px;
+    border-radius: 10px 10px 0px 0px;
+}
+  
+.info > h1{
+    color: white; 
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-weight: 600;
+    /* margin-top: 5px; */
+}
+.info > h3{
+    margin: 0px;
+    color: #F3BF99;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.info > a{
+    text-decoration: none;
+}
+.info > a > h4{
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.info-buttons{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+}
+.info-buttons > a{
+    margin-right: 12px;
+    margin-left: 12px;
+} 
+.info-buttons > a > button{
+    width: 116px; 
+    height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 7px;
+    border: none;
+    
+}
+.info-buttons > a > button > i{
+    margin-right: 10px;
+}
+.linkedIn{
+    background-color: #5093E2;
+    color: white;
+}
+.about{
+    width: 255px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.interests{
+    width: 255px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about > h2{
+    font-size: 16px;
+    font-weight: 900;
+    color: #F5F5F5;
+    margin-bottom: 5px;
+}
+.about > p{
+    font-size: 11px;
+    font-weight: 100;
+    color: #DCDCDC;
+    word-spacing: 0.1rem;
+    line-height: 1rem;
+}
+.interests > h2{
+    font-size: 16px;
+    font-weight: 900;
+    color: #F5F5F5;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.interests > p{
+    font-size: 11px;
+    font-weight: 100;
+    color: #DCDCDC;
+    word-spacing: 0.1rem;
+    line-height: 1rem;
+}
+.footer{
+    height: 30px;
+    background-color: #161619;
+    margin-top: 10px;
+    text-align: center;
+    padding: 8px;
+}
+
+.footer > a{
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.footer > a > i{
+    color: #918E9B;  
+}
